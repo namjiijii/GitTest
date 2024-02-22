@@ -9,6 +9,7 @@ public class TestController {
     @GetMapping("/")
     public String main(){
         System.out.println(15694496);
+        System.out.println("이 코드는 dev branch에서 추가함");
         return "main";
     }
 }
